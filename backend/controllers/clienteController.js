@@ -1,4 +1,4 @@
-import { getClientes, addCliente } from '../models/clienteModel.js';
+import { addCliente, getClientes } from '../models/clienteModel.js';
 
 export const obtenerClientes = (req, res) => {
   getClientes((err, resultados) => {
